@@ -1,0 +1,33 @@
+{
+  "standard_sets": {
+      "CORE": {"full":  "Basic", "short": "BSC"},
+      "EXPERT1": {"full":  "Classic", "short": "CLS"},
+      "GILNEAS": {"full":  "The Witchwood", "short": "WW"},
+      "BOOMSDAY": {"full":  "The Boomsday Project", "short": "TBP"},
+      "TROLL": {"full":  "Rastakhan's Rumble", "short": "RR"},
+      "DALARAN": {"full":  "Rise of Shadows", "short": "ROS"}
+  },
+  "wild_sets": {
+      "HOF": {"full":  "Hall of Fame", "short": "HOF"},
+      "NAXX": {"full":  "Naxxramas", "short": "NAXX"},
+      "GVG": {"full":  "Goblins vs Gnomes", "short": "GVG"},
+      "BRM": {"full":  "Blackrock Mountain", "short": "BM"},
+      "TGT": {"full":  "The Grand Tournament", "short": "TGT"},
+      "LOE": {"full":  "The League of Explorers", "short": "LOE"},
+      "OG": {"full":  "Whispers of the Old Gods", "short": "WOG"},
+      "KARA": {"full":  "One Night in Karazhan", "short": "ONK"},
+      "GANGS": {"full":  "Mean Streets of Gadgetzan", "short": "MSG"},
+      "UNGORO": {"full":  "Journey to Un'Goro", "short": "JtUG"},
+      "ICECROWN": {"full":  "Knights of the Frozen Throne", "short": "KFO"},
+      "LOOTAPALOOZA": {"full":  "Kobolds & Catacombs", "short": "K&C"}
+  },
+  "arena_sets": {
+      "CORE": {"full":  "Basic", "short": "BSC"},
+      "EXPERT1": {"full":  "Classic", "short": "CLS"},
+      "GVG": {"full":  "Goblins vs Gnomes", "short": "GVG"},
+      "TGT": {"full":  "The Grand Tournament", "short": "TGT"},
+      "KARA": {"full":  "One Night in Karazhan", "short": "ONK"},
+      "BOOMSDAY": {"full":  "The Boomsday Project", "short": "TBP"},
+      "DALARAN": {"full":  "Rise of Shadows", "short": "ROS"}
+  }
+}
