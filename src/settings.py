@@ -6,6 +6,12 @@ from pprint import pprint
 # Define Project's Root
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
+# Define Paths to Plots
+STANDARD_PLOTS_PATH = '../plots/standard/'
+WILD_PLOTS_PATH = '../plots/wild/'
+WILD_EXCLUSIVE_PLOTS_PATH = '../plots/wild_exclusive/'
+ARENA_PLOTS_PATH = '../plots/arena/'
+
 # Define the paths to directives directory JSON files
 __PATH_TO_SET_CODES = './directives/set_codes.json'
 __PATH_TO_ADVENTURES = './directives/adventures.json'
