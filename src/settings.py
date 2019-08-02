@@ -1,6 +1,5 @@
 import os
 import src.tools.dtloader
-from pprint import pprint
 
 
 # Define Project's Root
@@ -11,6 +10,15 @@ STANDARD_PLOTS_PATH = '../plots/standard/'
 WILD_PLOTS_PATH = '../plots/wild/'
 WILD_EXCLUSIVE_PLOTS_PATH = '../plots/wild_exclusive/'
 ARENA_PLOTS_PATH = '../plots/arena/'
+
+# Define Path to Template
+TEMPLATE_PATH = '../templates/report_template.md'
+
+# Define Report Paths
+STANDARD_REPORT_PATH = '../reports/standard_report.md'
+WILD_REPORT_PATH = '../reports/wild_report.md'
+WILD_EXCLUSIVE_REPORT_PATH = '../reports/wild_exclusive_report.md'
+ARENA_REPORT_PATH = '../reports/arena_report.md'
 
 # Define the paths to directives directory JSON files
 __PATH_TO_SET_CODES = './directives/set_codes.json'
@@ -40,6 +48,17 @@ EXPANSIONS = {key: WILD_SETS.get(key) for key in symmetric_difference}
 # Load Cards Exludes from the Arena Format
 ARENA_EXCLUSIONS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_ARENA_EXCLUSIONS, __ARENA_EXCLUSIONS_KEY)
 
+# Load Year Details
+__PATH_TO_YEAR_DETAILS = './directives/year_details.json'
+YEAR_DETAILS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_YEAR_DETAILS)
+
+# Load Plot URLs
+__PATH_TO_PLOT_URLS = './directives/plot_urls.json'
+STANDARD_URLS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_PLOT_URLS, 'standard')
+WILD_URLS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_PLOT_URLS, 'wild')
+WILD_EXCLUSIVE_URLS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_PLOT_URLS, 'wild_exclusive')
+ARENA_URLS = src.tools.dtloader.read_json(PROJECT_ROOT, __PATH_TO_PLOT_URLS, 'arena')
+
 # Hearthstone Basic Heroes
 BASIC_HEROES = [
     'Garrosh Hellscream',
@@ -52,23 +71,3 @@ BASIC_HEROES = [
     'Jaina Proudmoore',
     'Anduin Wrynn'
 ]
-
-
-if __name__ == '__main__':
-    # A lazy way to make sure everything works as it should work :P
-    print('Standard Sets')
-    pprint(STANDARD_SETS)
-    print('*' * 50)
-    print('Wild Exclusive Sets')
-    pprint(WILD_EXCLUSIVE_SETS)
-    print('*' * 50)
-    print('Wild Sets')
-    pprint(WILD_SETS)
-    print('*' * 50)
-    print('Arena Sets')
-    pprint(ARENA_SETS)
-    print('*' * 50)
-    pprint(ADVENTURES)
-    print('*' * 50)
-    print('Expansions')
-    pprint(EXPANSIONS)
