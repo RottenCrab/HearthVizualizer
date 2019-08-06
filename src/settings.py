@@ -1,7 +1,6 @@
 import os
 import src.tools.dtloader
 
-
 # Define Project's Root
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -12,13 +11,13 @@ WILD_EXCLUSIVE_PLOTS_PATH = '../plots/wild_exclusive/'
 ARENA_PLOTS_PATH = '../plots/arena/'
 
 # Define Path to Template
-TEMPLATE_PATH = '../templates/report_template.md'
+TEMPLATE_PATH = './templates/report_template.md'
 
 # Define Report Paths
-STANDARD_REPORT_PATH = '../reports/standard_report.md'
-WILD_REPORT_PATH = '../reports/wild_report.md'
-WILD_EXCLUSIVE_REPORT_PATH = '../reports/wild_exclusive_report.md'
-ARENA_REPORT_PATH = '../reports/arena_report.md'
+STANDARD_REPORT_PATH = './reports/standard_report.md'
+WILD_REPORT_PATH = './reports/wild_report.md'
+WILD_EXCLUSIVE_REPORT_PATH = './reports/wild_exclusive_report.md'
+ARENA_REPORT_PATH = './reports/arena_report.md'
 
 # Define the paths to directives directory JSON files
 __PATH_TO_SET_CODES = './directives/set_codes.json'
