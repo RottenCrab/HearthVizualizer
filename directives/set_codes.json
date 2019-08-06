@@ -25,10 +25,10 @@
   "arena_sets": {
       "CORE": {"full":  "Basic", "short": "BSC"},
       "EXPERT1": {"full":  "Classic", "short": "CLS"},
-      "GVG": {"full":  "Goblins vs Gnomes", "short": "GVG"},
-      "TGT": {"full":  "The Grand Tournament", "short": "TGT"},
-      "KARA": {"full":  "One Night in Karazhan", "short": "ONK"},
-      "BOOMSDAY": {"full":  "The Boomsday Project", "short": "TBP"},
-      "DALARAN": {"full":  "Rise of Shadows", "short": "ROS"}
+      "ULDUM": {"full":  "Saviors of Uldum", "short": "ULD"},
+      "TROLL": {"full":  "Rastakhan's Rumble", "short": "RR"},
+      "UNGORO": {"full":  "Journey to Un'Goro", "short": "JtUG"},
+      "LOOTAPALOOZA": {"full":  "Kobolds & Catacombs", "short": "K&C"},
+      "LOE": {"full":  "The League of Explorers", "short": "LOE"}
   }
 }

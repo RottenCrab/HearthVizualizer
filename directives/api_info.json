@@ -1,7 +1,7 @@
 {
   "api_url": "https://api.hearthstonejson.com/",
   "latest_version": "v1/",
-  "latest_release": "31761/",
+  "latest_release": "32708/",
   "lang": "enUS/",
   "collectible_cards": "cards.collectible.json",
   "all_cards": "cards.json"
