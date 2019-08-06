@@ -3,6 +3,16 @@ Since the release of [Rise of Shadows](https://playhearthstone.com/en-us/expansi
 
 I decided to create this Project to demonstrate Statistics like these (using simple plots) to help players make correct decisions when the time comes. So, the main purpose of this very repository is to help players knowing their chances of getting what they want when they are using cards like Evolve, Devolve, Unstable Evolution, Mutate and Conjurer's Calling.
 
+**Here is an Example during an Arena Match:**
+
+If you have 3 minions on board which cost 5, 6 and 8 mana and Conjurer's Calling in hand. Your best bet to stay alive and win the game at your next turn is if you get a **Taunt** Minion with Conjurer's Calling. Which Minion would you kill to *maximize* your odds to stay aline?
+
+<p align="center">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/arena/probabilities.png">
+</p>
+
+If you take a look at the plot above you will notice that your best option is to destroy the minion whose Mana Cost is 8 Mana because your chances to get a **Taunt** are *23%*
+
 ## How to take advantage of Reports (CheatSheets) & Plots
 
 In this Repository you can find [Reports/Cheatsheets](https://github.com/RottenCrab/HearthVizualizer/tree/master/reports) and [Plots](https://github.com/RottenCrab/HearthVizualizer/tree/master/plots) which contain information about the distribution of minions, spells and weapons per Mana Cost in **Standard**, **Wild**, **Wild Exclusive (Wild Sets ONLY)** and **Arena** Format which are easy to understand. Then you can take advantage of those resources in order to be aware of:
