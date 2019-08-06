@@ -48,14 +48,14 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 * STEALTH: 20
 * CHOOSE_ONE: 16
 * OVERKILL: 14
-* DIVINE_SHIELD: 13
 * OVERLOAD: 13
+* DIVINE_SHIELD: 13
 * COMBO: 13
 * CHARGE: 12
 * RUSH: 11
 * POISONOUS: 8
-* WINDFURY: 7
 * LIFESTEAL: 7
+* WINDFURY: 7
 * FREEZE: 7
 * SILENCE: 4
 

@@ -58,8 +58,8 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 * DISCOVER: 67
 * SECRET: 41
 * STEALTH: 36
-* DIVINE_SHIELD: 34
 * RUSH: 34
+* DIVINE_SHIELD: 34
 * CHOOSE_ONE: 33
 * OVERLOAD: 31
 * LIFESTEAL: 26
@@ -68,9 +68,9 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 * CHARGE: 19
 * OVERKILL: 14
 * WINDFURY: 13
-* ECHO: 12
 * MODULAR: 12
 * POISONOUS: 12
+* ECHO: 12
 * FREEZE: 11
 * TWINSPELL: 8
 * CANT_ATTACK: 5

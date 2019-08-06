@@ -21,7 +21,18 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 
 ### Sets in Play
 
-
+* Hall of Fame
+* Naxxramas
+* Goblins vs Gnomes
+* Blackrock Mountain
+* The Grand Tournament
+* The League of Explorers
+* Whispers of the Old Gods
+* One Night in Karazhan
+* Mean Streets of Gadgetzan
+* Journey to Un'Goro
+* Knights of the Frozen Throne
+* Kobolds & Catacombs
 
 ### Format Details
 
@@ -42,8 +53,8 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 * SECRET: 20
 * CHOOSE_ONE: 16
 * OVERLOAD: 16
-* DIVINE_SHIELD: 14
 * STEALTH: 14
+* DIVINE_SHIELD: 14
 * COMBO: 12
 * LIFESTEAL: 11
 * CHARGE: 8
@@ -59,19 +70,19 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 ### Format Distribution (All Collectible Cards) per Mana Cost
 
 <p align="center">
-  <img width="640" height="480" src="$cost_dist_kde_false">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/cost_distribution_kde_False.png">
 </p>
 
 ### Minion Distribution per Mana Cost
 
 <p align="center">
-  <img width="640" height="480" src="$minion_dist_kde_false">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/minion_distribution_kde_False.png">
 </p>
 
 ### Spell Distribution per Mana Cost
 
 <p align="center">
-  <img width="640" height="480" src="$spell_dist_kde_false">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/spell_distribution_kde_False.png">
 </p>
 
 ## Distribution Plots with Kernel Density Estimation (KDE)
@@ -79,19 +90,19 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 ### Format Distribution (All Collectible Cards) per Mana Cost (KDE)
 
 <p align="center">
-  <img width="640" height="480" src="$cost_dist_kde_true">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/cost_distribution_kde_True.png">
 </p>
 
 ### Minion Distribution per Mana Cost (KDE)
 
 <p align="center">
-  <img width="640" height="480" src="$minion_dist_kde_true">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/minion_distribution_kde_True.png">
 </p>
 
 ### Spell Distribution per Mana Cost (KDE)
 
 <p align="center">
-  <img width="640" height="480" src="$spell_dist_kde_true">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/spell_distribution_kde_True.png">
 </p>
 
 ## Probabilities
@@ -99,7 +110,7 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 ### Taunt, Rush & Charge Probability per Mana Cost
 
 <p align="center">
-  <img width="640" height="480" src="$probabilities">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/probabilities.png">
 </p>
 
 ## Minion Stats related Plots
@@ -107,55 +118,55 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 ### Average Stats Per Mana Cost
 
 <p align="center">
-  <img width="640" height="480" src="$avg_stats">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/average_stats.png">
 </p>
 
 ### Average Stats: Beasts
 
 <p align="center">
-  <img width="640" height="480" src="$avg_beasts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_beast.png">
 </p>
 
 ### Average Stats: Demons
 
 <p align="center">
-  <img width="640" height="480" src="$avg_demons">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_demon.png">
 </p>
 
 ### Average Stats: Dragons
 
 <p align="center">
-  <img width="640" height="480" src="$avg_dragons">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_dragon.png">
 </p>
 
 ### Average Stats: Elementals
 
 <p align="center">
-  <img width="640" height="480" src="$avg_elementals">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_elemental.png">
 </p>
 
 ### Average Stats: Mechs
 
 <p align="center">
-  <img width="640" height="480" src="$avg_mechanicals">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_mechanical.png">
 </p>
 
 ### Average Stats: Murlocs
 
 <p align="center">
-  <img width="640" height="480" src="$avg_murlocs">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_murloc.png">
 </p>
 
 ### Average Stats: Pirates
 
 <p align="center">
-  <img width="640" height="480" src="$avg_pirates">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_pirate.png">
 </p>
 
 ### Average Stats: Totems
 
 <p align="center">
-  <img width="640" height="480" src="$avg_totems">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/avg_stats_totem.png">
 </p>
 
 ## Quantitive Information
@@ -163,41 +174,41 @@ Furthermore, in this Cheatsheet you will find information about Hearthstone such
 ### Cards per Faction
 
 <p align="center">
-  <img width="640" height="480" src="$faction_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/faction_counts.png">
 </p>
 
 ### Cards per Class
 
 <p align="center">
-  <img width="640" height="480" src="$class_card_count">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/cardClass_counts.png">
 </p>
 
 ### Cards per Cost
 
 <p align="center">
-  <img width="640" height="480" src="$cost_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/cost_counts.png">
 </p>
 
 ### Cards per Race
 
 <p align="center">
-  <img width="640" height="480" src="$race_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/race_counts.png">
 </p>
 
 ### Cards per Rarity
 
 <p align="center">
-  <img width="640" height="480" src="$rarity_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/rarity_counts.png">
 </p>
 
 ### Cards per Set
 
 <p align="center">
-  <img width="640" height="480" src="$set_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/set_counts.png">
 </p>
 
 ### Cards per Type
 
 <p align="center">
-  <img width="640" height="480" src="$type_counts">
+  <img width="640" height="480" src="https://github.com/RottenCrab/HearthVizualizer/blob/master/plots/wild_exclusive/type_counts.png">
 </p>
